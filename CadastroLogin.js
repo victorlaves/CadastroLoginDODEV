@@ -28,3 +28,16 @@ function ChooseOption(){
         close = false
     }
 }
+
+function Login(name, password){
+    for(var i = 0 ; i < arrayName; i++){
+        var loginValidation = true
+        if(login == arrayName[i] && password == arrayPassword[i]){
+            loginValidation = true
+        }
+        else {
+            loginValidation = false
+        }
+}
+return loginValidation
+}
